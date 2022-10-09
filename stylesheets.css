@@ -10,9 +10,9 @@ html {
 .sec-one{
     background-color: #1F2937;
     
-   
 }
 
+/*Flex Box styling  */
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -23,13 +23,17 @@ html {
     justify-content: space-evenly;
 }
 
+.flex-container-Herosub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
 .logo {
     color: #f9faf8;
     font-size: 24px;
     text-align: center;
-    padding-left: 2rem;
-    
-      
+    padding-left: 2rem;   
 }
 
 
@@ -73,4 +77,9 @@ li a{
     font-size: 18px;
     color: #e5e7eb;
     align-self:flex-end
+}
+
+button{
+    background-color: #3882f6;
+    
 }
