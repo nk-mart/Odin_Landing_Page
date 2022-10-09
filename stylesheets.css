@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -7,24 +9,37 @@ html {
 
 .sec-one{
     background-color: #1F2937;
+    
    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Hero{
+    justify-content: space-evenly;
 }
 
 .logo {
     color: #f9faf8;
     font-size: 24px;
-    display: inline-block;
+    text-align: center;
+    padding-left: 2rem;
+    
+      
 }
 
-.flex-container{
-    display: flex;
-   
-}
+
 
 .navbar{
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    width: 100%;
+
 
 }
 
@@ -32,12 +47,30 @@ html {
 ul.navbar li a{ 
     font-size: 18PX;
     color: #E5E7EB;
-    padding-left: 30px;
+    padding-right: 2rem;
     text-decoration: none;
     
 }
 
 li a{
     list-style: none;
+
 }
 
+.Hero-text{
+    color: #f9faf8;
+    font-size: 48PX;
+    
+}
+
+.Place-holder{
+    color: #f9faf8;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.Hero-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    align-self:flex-end
+}
