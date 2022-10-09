@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.sec-one{
+    background-color: #1F2937;
+    display: felx;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul.nav li{ 
+    font-size: 18PX;
+    color: #E5E7EB;
+    list-style: none
+}
