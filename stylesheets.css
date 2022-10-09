@@ -7,16 +7,37 @@ html {
 
 .sec-one{
     background-color: #1F2937;
-    display: felx;
+   
 }
 
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    display: inline-block;
 }
 
-ul.nav li{ 
+.flex-container{
+    display: flex;
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+
+ul.navbar li a{ 
     font-size: 18PX;
     color: #E5E7EB;
-    list-style: none
+    padding-left: 30px;
+    text-decoration: none;
+    
 }
+
+li a{
+    list-style: none;
+}
+
